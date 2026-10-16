@@ -1,5 +1,5 @@
 [project]
-name = "json-traverse"
+name = "JavaScript-JSON"
 version = "0.1.0"
 description = "Parse JSON with JavaScript-style object traversal in Python."
 readme = "README.md"
@@ -8,6 +8,19 @@ authors = [
 ]
 requires-python = ">=3.14"
 dependencies = []
+
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.14",
+]
+keywords = ["javascript", "json"]
+
+[project.urls]
+Homepage = "https://github.com/outside-labs/JavaScript-JSON"
+Repository = "https://github.com/outside-labs/JavaScript-JSON"
+Issues = "https://github.com/outside-labs/JavaScript-JSON/issues"
 
 [build-system]
 requires = ["uv_build>=0.12.19,<0.13.0"]

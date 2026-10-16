@@ -1,4 +1,4 @@
-# JSON traversal
+# JavaScript-JSON
 
 Parse JSON in Python and traverse its objects with JavaScript-style dot access:
 
@@ -13,7 +13,15 @@ assert obj[0]["key"]["value"] == "hello"
 
 Requires Python 3.14 or later and has no runtime dependencies. The import name is
 uppercase `JSON`; Python's lowercase `json` remains available. The distribution
-name is `json-traverse`.
+name is `JavaScript-JSON`.
+
+## Install
+
+```sh
+python -m pip install JavaScript-JSON
+```
+
+The Python import remains `import JSON`.
 
 ## Installation and tests
 
